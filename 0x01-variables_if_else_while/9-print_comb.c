@@ -8,7 +8,10 @@ int main(void)
 	{
 		putchar(i);
 		putchar(44);
+		if(i !=9)
+		{
 		putchar(32);
+		}
 		i++;
 	}
 	putchar('\n');
