@@ -7,9 +7,9 @@ int main(void)
 	while(i<=57)
 	{
 		putchar(i);
-		putchar(44);
-		if(i !=9)
+		if (i != 9)
 		{
+		putchar(44);
 		putchar(32);
 		}
 		i++;
