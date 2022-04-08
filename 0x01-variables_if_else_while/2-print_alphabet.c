@@ -4,12 +4,12 @@
 int main(void)
 {
 	int i;
-
-	for (i='A';i<='Z';i++)
+	i=97;
+	while(i<=122)
 	{
-		i = tolower(i);
 		putchar(i);
+		i++;
 	}
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
