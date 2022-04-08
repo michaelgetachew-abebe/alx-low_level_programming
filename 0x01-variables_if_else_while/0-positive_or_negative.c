@@ -3,7 +3,10 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/*
+ * This finction checks whether a number is positive 
+ * or negative
+*/
 int main(void)
 {
 	int n;
