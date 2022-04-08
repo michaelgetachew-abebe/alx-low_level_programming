@@ -5,7 +5,7 @@ int main(void)
 {
 	int i;
 
-	for (i='A':i<='Z';i++)
+	for (i='A';i<='Z';i++)
 	{
 		i = tolower(i);
 		putchar(i);
