@@ -1,20 +1,17 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int i;
-	i=97;
-	while(i<=122)
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (i == 101 || i == 113)
-		{
-			continue;
-		}
-		else
-		{
-			putchar(i);
-		}
-		i++;
+		if (c != 'e' && c != 'q')
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
