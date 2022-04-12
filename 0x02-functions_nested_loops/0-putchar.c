@@ -1,10 +1,20 @@
-#include <stdio.h>
-
+#include "main.h"
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char a="_putchar";
-	_putchar(a);
-	_putchar("\n");
+	char *pointer = "_putchar";
+
+	while (*pointer)
+	{
+		_putchar(*pointer);
+		*pointer++;
+	}
+	_putchar('\n');
 
 	return (0);
 }
+
