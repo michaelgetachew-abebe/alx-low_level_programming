@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * times_table -  a function that prints the 9 times table, starting with 0
- * rone = row, cone = column, d = digits of current result
+ * times_table - a function that prints the time table
  * Return: times table
- * add extra space past single digit
  */
 void times_table(void)
 {
-	int rone, cone, d;
+	int rone;
+	int cone;
+	int d;
 
 	for (rone = 0; rone <= 9; rone++)
 	{
@@ -37,3 +37,4 @@ void times_table(void)
 	}
 
 }
+
