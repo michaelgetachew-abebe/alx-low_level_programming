@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks for lowercase character
- *
+ *@c: single letter input
  * Return: Always 0 (Success)
  */
 int _islower(int c)
@@ -10,10 +10,8 @@ int _islower(int c)
 	int r;
 
 	if (c > 97)
-	{
-		r=1;
-	}
+		return (1);
 	else
-	{
-		r=0;
-	}
+		return (0);
+}
+
