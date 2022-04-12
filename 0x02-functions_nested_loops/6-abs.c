@@ -3,7 +3,7 @@
 /**
  * _abs - calculates the absolute value of a number
  *
- * Return: Absolute value
+ * Return: Absolute value of ab
  */
 int _abs(int ab)
 {
