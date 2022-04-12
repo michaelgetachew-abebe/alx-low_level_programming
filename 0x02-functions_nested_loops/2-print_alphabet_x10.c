@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * print_alphabet_x10 - this function prints the aplhabet 10 times
+ * print_alphabet_x10 - this function prints the aplhabet(x10), lowercase
  *
  * Return: Always 0 (Success)
  */
