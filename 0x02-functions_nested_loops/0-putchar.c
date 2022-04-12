@@ -11,7 +11,7 @@ int main(void)
 	while (*pointer)
 	{
 		_putchar(*pointer);
-		*pointer++;
+		pointer++;
 	}
 	_putchar('\n');
 
