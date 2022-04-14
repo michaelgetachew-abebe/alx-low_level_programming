@@ -1,19 +1,23 @@
-#include "main.h"
+#include "holberton.h"
+#include <stdio.h>
 
 /**
- * more_numbers - prints numbers from 0 to 14 
- * 10 times
- * Return: 0
+ * more_numbers - prints numbers from 0 to 14 ten times
+ * Return: no return
  */
 void more_numbers(void)
 {
-	int i;
+	int row, column;
 
-	for (i = 0; i < 10; i++)
+	for (row = 1; row <= 10; row++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (column = 0; column <= 14; column++)
 		{
-			_putchar('j');
+			if (column / 10 != 0)
+			{
+				_putchar('0' + column / 10);
+			}
+			_putchar('0' + column % 10);
 		}
 		_putchar('\n');
 	}
