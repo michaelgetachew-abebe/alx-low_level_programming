@@ -5,6 +5,7 @@
  * except 2 and 4;
  * Retuen: 0
  */
+
 void print_most_numbers(void)
 {
 	int i;
