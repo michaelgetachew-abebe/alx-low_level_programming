@@ -1,40 +1,34 @@
 #include "main.h"
+
 /**
- * times_table - a function that prints the time table
- * Return: times table
+ * times_table - Prints the nine times table starting from 0
+ *
+ * Return: void
  */
+
 void times_table(void)
 {
-	int rone;
-	int cone;
-	int d;
+	int a, b, c;
 
-	for (rone = 0; rone <= 9; rone++)
+	for (a = 0; a <= 9; a++)
 	{
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-		for (cone = 1; cone <= 9; cone++)
+		_putchar(48);
+		for (b = 1; b <= 9; b++)
 		{
-			d = (rone * cone);
-			if ((d / 10) > 0)
+			c = a * b;
+			_putchar(44);
+			_putchar(32);
+			if (c <= 9)
 			{
-				_putchar((d / 10) + '0');
+				_putchar(32);
+				_putchar(c + 48);
 			}
 			else
 			{
-				_putchar(' ');
-			}
-			_putchar((d % 10) + '0');
-
-			if (cone < 9)
-			{
-				_putchar(',');
-				_putchar(' ');
+				_putchar((c / 10) + 48);
+				_putchar((c % 10) + 48);
 			}
 		}
-		_putchar('\n');
+	_putchar('\n');
 	}
-
 }
-
